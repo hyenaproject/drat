@@ -41,3 +41,5 @@ drat::insertPackage("the_path_of_your_tar.gz", repodir = "the_path_of_your_local
 Make sure to replace the placeholders by the correct text. 
 
 Finally, commit and push using ```git``` from within your local drat folder.
+
+Note: if you want to get rid of old package versions, check ```?drat::pruneRepo```.
