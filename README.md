@@ -1,6 +1,3 @@
-# drat
-This drat folder is where you need to go to install our R packages
-
 # Install our R packages using drat
 
 We are using this repository for users to be able to install our R package using ```drat``` http://eddelbuettel.github.io/drat/.
