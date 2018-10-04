@@ -3,5 +3,5 @@ Version: 0.1.0
 Depends: R (>= 2.10)
 Imports: dplyr, ggplot2, spaMM, purrr, magrittr, egg, ggthemes
 License: GPL (>= 2)
-MD5sum: b2c6bf4228f74457ff7e837b898d6fa3
+MD5sum: 1b9ea436e1fcc002d3b8ecc27a6b62d2
 NeedsCompilation: no
