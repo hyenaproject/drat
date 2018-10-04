@@ -21,8 +21,6 @@ drat::addRepo("hyenaproject")
 install.packages("XXX") ## replace XXX by the name of the package!
 ```
 
-Our packages will be added here progressively.
-
 
 ## For the hyena project developers: how to add your own R package here?
 
