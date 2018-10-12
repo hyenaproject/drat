@@ -1,3 +1,12 @@
+Package: hyenaR
+Version: 0.0.0.9000
+Depends: R (>= 3.4.0)
+Imports: reticulate, RSQLite, DBI, dbplyr, dplyr, magrittr, purrr, lubridate
+Suggests: testthat, tibble
+License: GPL-2
+MD5sum: 92f213b1604dd2f1cac10c33f3f2a731
+NeedsCompilation: no
+
 Package: vullioud2018
 Version: 0.1.0
 Depends: R (>= 2.10)
