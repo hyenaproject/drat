@@ -13,9 +13,5 @@ Version: 0.1.1
 Depends: R (>= 2.10)
 Imports: dplyr, egg, ggplot2, ggthemes, magrittr, purrr, spaMM
 License: GPL (>= 2)
-<<<<<<< HEAD
-MD5sum: a930e262336288c99a9188b6343a2144
-=======
 MD5sum: 1b9ea436e1fcc002d3b8ecc27a6b62d2
->>>>>>> ee11c76ad2c36028a38be1598c6e6af21c5f6de9
 NeedsCompilation: no
