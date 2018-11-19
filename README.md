@@ -38,7 +38,7 @@ Then, to add your package, create a build version of the package (i.e. ```*.tar.
 drat::insertPackage("the_path_of_your_tar.gz", repodir = "the_path_of_your_local_drat_folder")
 ```
 
-Make sure to replace the placeholders by the correct text. 
+Make sure to replace the place holders by the correct text. 
 
 Finally, commit and push using ```git``` from within your local drat folder.
 
