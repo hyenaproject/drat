@@ -1,11 +1,10 @@
 Package: hyenaR
-Version: 0.0.2
+Version: 0.1.1
 Depends: R (>= 3.4.0)
-Imports: reticulate, RSQLite, DBI, dbplyr, dplyr, magrittr, purrr,
-       lubridate, ggplot2, glue, stringr
+Imports: reticulate, RSQLite, DBI, dbplyr, dplyr, magrittr, purrr, lubridate, ggplot2, glue, stringr
 Suggests: testthat, tibble
 License: GPL-2
-MD5sum: 5ce027d60e2d63105db2604fc434fbf3
+MD5sum: bd41d8e41f1bd811fd082cfc0d78fe18
 NeedsCompilation: no
 
 Package: vullioud2018
@@ -13,5 +12,5 @@ Version: 0.1.1
 Depends: R (>= 2.10)
 Imports: dplyr, egg, ggplot2, ggthemes, magrittr, purrr, spaMM
 License: GPL (>= 2)
-MD5sum: 1b9ea436e1fcc002d3b8ecc27a6b62d2
+MD5sum: a930e262336288c99a9188b6343a2144
 NeedsCompilation: no
