@@ -4,7 +4,7 @@ Depends: R (>= 3.4.0)
 Imports: reticulate, RSQLite, DBI, dbplyr, dplyr, magrittr, purrr, lubridate, ggplot2, glue, stringr
 Suggests: testthat, tibble
 License: GPL-2
-MD5sum: 8e8c85febcaf78edea665ac680621c9a
+MD5sum: ac0e243f7bcd9bb1964e31df69e4cf27
 NeedsCompilation: no
 
 Package: vullioud2018
