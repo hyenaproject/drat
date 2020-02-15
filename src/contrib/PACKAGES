@@ -1,21 +1,19 @@
 Package: hyenaR
-Version: 0.6.0
+Version: 0.6.1
 Depends: R (>= 3.4.0)
-Imports: DBI, devtools, dplyr, drat, furrr, ggplot2, gh,
-      glue, gtools, lubridate, purrr, reticulate, rlang
-      (>= 0.4.0), RSQLite, stringr, tibble, tidyr, utils,
-      crayon
+Imports: DBI, devtools, dplyr, drat, furrr, ggplot2, gh, glue,
+       gtools, lubridate, purrr, reticulate, rlang (>= 0.4.0),
+       RSQLite, stringr, tibble, tidyr, utils, crayon
 Suggests: dbplyr, multcomp, R.utils, skimr, testthat (>=
-      2.1.0), roxygen2, knitr, rmarkdown
+       2.1.0), roxygen2, knitr, rmarkdown
 License: GPL-2
-MD5sum: db486f16e5f40ee7f80abb65cc0a3b50
+MD5sum: 09cb1e5492a1e2da61aae94dadca8f73
 NeedsCompilation: no
 
 Package: vullioud2018
 Version: 0.1.1
 Depends: R (>= 2.10)
-Imports: dplyr, egg, ggplot2, ggthemes, magrittr, purrr,
-      spaMM
+Imports: dplyr, egg, ggplot2, ggthemes, magrittr, purrr, spaMM
 License: GPL (>= 2)
 MD5sum: a930e262336288c99a9188b6343a2144
 NeedsCompilation: no
