@@ -44,5 +44,5 @@ Finally, commit and push using ```git``` from within your local drat folder.
 
 Note: if you want to get rid of old package versions, within your drat project, use: 
 ```
-drat::pruneRepo(repopath = ".", remove = FALSE)
+drat::pruneRepo(repopath = ".", remove = TRUE)
 ```
