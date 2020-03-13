@@ -42,4 +42,7 @@ Make sure to replace the place holders by the correct text.
 
 Finally, commit and push using ```git``` from within your local drat folder.
 
-Note: if you want to get rid of old package versions, check ```?drat::pruneRepo```.
+Note: if you want to get rid of old package versions, within your drat project, use: 
+```
+drat::pruneRepo(repopath = ".", remove = FALSE)
+```
