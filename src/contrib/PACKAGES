@@ -1,13 +1,13 @@
 Package: hyenaR
-Version: 0.9.9
+Version: 0.9.99
 Depends: R (>= 3.4.0)
-Imports: DBI, devtools, dplyr, drat, furrr, ggplot2, gh, glue, gtools,
-        lubridate, progress, purrr, reticulate, rlang (>= 0.4.0),
-        RSQLite, stringr, tibble, tidyr, utils, crayon
-Suggests: bench, dbplyr, multcomp, R.utils, skimr, testthat (>= 2.1.0),
-        tidyverse, roxygen2, knitr, rmarkdown
+Imports: DBI, devtools, dplyr, drat, furrr, ggplot2, gh, glue, gtools, lubridate,
+         progress, purrr, reticulate, rlang (>= 0.4.0), RSQLite, stringr, tibble,
+         tidyr, utils, crayon
+Suggests: bench, dbplyr, multcomp, R.utils, skimr, testthat (>= 2.1.0), tidyverse,
+         roxygen2, knitr, rmarkdown
 License: GPL-2
-MD5sum: 09606e1c100844ac77ee748b1555abba
+MD5sum: c5a398f228162128276848b83ab63ab1
 NeedsCompilation: no
 
 Package: vullioud2018
