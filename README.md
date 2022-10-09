@@ -10,13 +10,13 @@ The `drat` system allows for an easy installation of our packages.
 First make sure that the R package `drat` is installed on your system.
 If that is not the case, install the R package by simply typing inside your R Console:
 
-```{r}
+```r
 install.packages("drat")
 ```
 
 Once the R package `drat` is installed, you can simply install our packages by typing:
 
-```{r}
+```r
 drat::addRepo("hyenaproject")
 install.packages("XXX") ## replace XXX by the name of the package!
 ```
@@ -36,7 +36,7 @@ Then, to add your package, make sure the R package `drat` is installed on your s
 
 Either the following (after creating a build version of the package (i.e. `*.tar.gz`) as usual):
 
-```{r}
+```r
 drat::insertPackage("the_path_of_your_tar.gz", repodir = "the_path_of_your_local_drat_folder")
 ```
 and if so, make sure to replace the place holders by the correct text. 
@@ -44,13 +44,13 @@ and if so, make sure to replace the place holders by the correct text.
 
 Or, for {hyenaR} specifically, the better way is to use the following from within the hyenaR RStudio project:
 
-```{r}
+```r
 build_drat_update("/home/courtiol/GitHub_repos/drat/") # or no path on Windows and it will prompt you
 ```
 
 Finally, commit and push using `git` from within your local drat folder:
 
-```{r}
+```r
 gert::git_add(".")
 gert::git_commit(message = "Update hyenaR to version X.X.XXXX")
 gitcreds::gitcreds_set()
@@ -59,6 +59,6 @@ gert::git_push()
 
 Note: if you want to get rid of old package versions, within your drat project, use: 
 
-```{r}
+```r
 drat::pruneRepo(repopath = ".", remove = TRUE)
 ```
