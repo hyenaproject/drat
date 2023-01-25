@@ -1,12 +1,14 @@
 Package: hyenaR
-Version: 0.9.99994
+Version: 0.9.999941
 Depends: R (>= 3.4.0)
-Imports: amt, crayon, DBI, devtools, dplyr (>= 1.0), drat, furrr (>= 0.2), future, ggplot2, gh, glue, lubridate, purrr, reticulate, rlang (>= 0.4.0), RSQLite, stringr, tibble, tidyr,
-                    utils
-Suggests: dbplyr, ggrepel, kinship2, knitr, lwgeom, multcomp, quarto, R.utils, readxl, rmarkdown, roxygen2, sf, skimr, testthat (>= 2.1.0), tidyverse
+Imports: amt, crayon, DBI, devtools, dplyr (>= 1.0), drat, furrr (>= 0.2), future,
+          ggplot2, gh, glue, lubridate, purrr, reticulate, rlang (>= 0.4.0), RSQLite,
+          stringr, tibble, tidyr, utils
+Suggests: dbplyr, ggrepel, kinship2, knitr, lwgeom, multcomp, quarto, R.utils, readxl,
+          rmarkdown, roxygen2, sf, skimr, testthat (>= 2.1.0), tidyverse
 Enhances: HyenaPopmod
 License: GPL-2
-MD5sum: 43b1b3929e50e8dcd1f5fbd2857b29fb
+MD5sum: f74866d8c851d53a570e75185e539dd0
 NeedsCompilation: no
 
 Package: vullioud2018
