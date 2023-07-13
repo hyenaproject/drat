@@ -42,10 +42,10 @@ drat::insertPackage("the_path_of_your_tar.gz", repodir = "the_path_of_your_local
 and if so, make sure to replace the place holders by the correct text. 
 
 
-Or, for {hyenaR} specifically, the better way is to use the following from within the hyenaR RStudio project:
+Or, for `{hyenaR}` specifically, the better way is to use the following function from within the hyenaR RStudio project:
 
 ```r
-build_drat_update("/home/courtiol/GitHub_repos/drat/") # or no path on Windows and it will prompt you
+build_drat_update("../../drat_hyenaproject/drat/") # do adjust according to your onw path
 ```
 
 Finally, commit and push using `git` from within your local drat folder:
